@@ -27,8 +27,8 @@ https://hackmd.io/ is a very capable collaborative Markdown editor which we foun
 
 For examples of Markdown files rendered using this script, see our: 
 
-- **User guide**: [source](https://github.com/CS2103AUG2016-W10-C4/main/blob/master/docs/UserGuide.md) - [rendered](https://cs2103aug2016-w10-c4.github.io/main/UserGuide.html)
-- **Developer Guide**: [source](https://github.com/CS2103AUG2016-W10-C4/main/blob/master/docs/DeveloperGuide.md) - [rendered](https://cs2103aug2016-w10-c4.github.io/main/DeveloperGuide.html)
+- **User guide**: [source](https://raw.githubusercontent.com/CS2103AUG2016-W10-C4/main/master/docs/UserGuide.md) - [rendered](https://cs2103aug2016-w10-c4.github.io/main/UserGuide.html)
+- **Developer Guide**: [source](https://raw.githubusercontent.com/CS2103AUG2016-W10-C4/main/master/docs/DeveloperGuide.md) - [rendered](https://cs2103aug2016-w10-c4.github.io/main/DeveloperGuide.html)
 
 ## Features 
 
@@ -74,6 +74,8 @@ is produced by
 
 
 ### Admonition blocks 
+
+<img width="314" alt="" src="https://cloud.githubusercontent.com/assets/445650/21878178/7705dd3c-d8cb-11e6-9c81-27ba857edb01.png">
 
 To draw reader's attention to specific things of interest, use the admonition extension. The syntax for this is 
 
