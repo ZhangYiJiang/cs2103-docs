@@ -16,7 +16,7 @@ This script meets all CS2103/T documentation requirements, but unfortunately CS2
 
 ## Installation 
 
-1. Download the script into your `docs` folder 
+1. Download the script and CSS into your `docs` folder 
 2. Install the prerequisites - [install Python 3](https://www.python.org/downloads/), then install the required packages - `pip3 install bs4 markdown pygments`
 3. Run the script from the project root - `python3 docs/build/convertor.py` 
 4. Configure `convertor.py` by editing the `files` dict at the top of the file. 
@@ -125,6 +125,14 @@ The document processor will automatically wrap the `<figcaption>` and the preced
 ```
 
 Note that Markdown is not processed inside HTML, so you must use HTML to write any additional inline markup you need inside the caption. 
+
+### Print link URLs 
+
+For important URLs such as links to the project repo that would be useful printed, add a `print-url` class using the attributes Markdown extension: 
+
+    Ensure you have [**Java version 8 update 60**][java]{: .print-url } or later installed on your computer.
+    
+This will add the URL behind the link using CSS generated content when the page is printed. Use this sparingly, as URLs are long and can disrupt the flow of the page for readers. 
 
 ## Additional Features 
 
